@@ -1,0 +1,48 @@
+.timetable {
+    margin-top: 100px;
+}
+.box {
+    text-align: center;
+    font-weight: bold;
+    vertical-align: middle;
+    overflow: hidden; /* Prevent text overflow */
+    white-space: nowrap; /* Prevent text wrapping */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bg-light {
+    background-color: #f8f9fa !important;
+}
+.bg-primary {
+    background-color: #007bff !important;
+}
+.text-white {
+    color: #fff !important;
+}
+.col-md-1, .col-md-2 {
+    border: 1px solid #dee2e6;
+    padding: 8px;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    text-align: center;
+    vertical-align: middle;
+}
+.col-md-1 {
+    flex: 0 0 12.5%;
+    max-width: 12.5%;
+}
+.col-md-2 {
+    flex: 0 0 25%;
+    max-width: 25%;
+    overflow: hidden; /* Hide overflow for larger text */
+    text-overflow: ellipsis; /* Add ellipsis for overflow text */
+}
+.lunchtime{
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
